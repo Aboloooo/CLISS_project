@@ -1,0 +1,306 @@
+* {
+    padding: 0px;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+nav {
+    height: 80px;
+    width: 100%;
+    background: #34495e;
+}
+
+label.logo {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding: 0 100px;
+    line-height: 80px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 40px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+nav a {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+
+a.active,
+a:hover {
+    border: 1px solid white;
+    transition: 0.5s;
+}
+
+nav #icon {
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    cursor: pointer
+}
+#signin-container{
+    background-color: aquamarine;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+#signin-container a{
+    font-size: 16px;
+    margin-left: 25px;
+    font-weight: bolder;
+}
+
+
+.container {
+    width: 100%;
+    background: #cac7ff;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.search-bar {
+    background: white;
+    border-radius: 60px;
+    height: 40px;
+    border: black solid;
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    outline: none;
+    background: transparent;
+    flex: 1;
+    border: 0;
+    padding: 24px 20px;
+    font-size: 18px;
+    color: #cac7ff;
+    width: 100%;
+}
+
+::placeholder {
+    color: #cac7ff;
+}
+
+.search-bar button img {
+    width: 35px;
+    border-radius: 50%;
+}
+
+.search-bar button {
+    border: 0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.fasionStyleImg {
+    margin-top: 40px;
+    margin-left: 10%;
+    width: 80%;
+    height: 670px;
+    background: url(..//ABOshop/images/fashion-styles.png) no-repeat;
+    background-size: 100% auto;
+    background-position: fixed;
+}
+             /* Login page css */
+#body-Login-page{
+    margin: 0;
+    padding: 0;
+    background: url(../ABOshop/images/welcome_cats.svg) no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat';
+}
+
+.container-form{
+    position: absolute;
+    top: 15%;
+    right: 25%;
+    width: 50%;
+    height: 480px;
+    background: #cccbc8 ;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    box-shadow: 0 15px 40px rgba(0,0,0,.5);
+}
+.container-form .left-login{
+    float: left;
+    width: 50%;
+    height: 480px;
+    background: url(../ABOshop/images/login_re.svg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+.container-form .right{
+    float: right;
+    width: 50%;
+    height: 480px;
+    box-sizing: border-box;
+}
+.form-heading{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+.form-box{
+    width: 100%;
+    padding: 50px 40px;
+    box-sizing: border-box;
+    height: 480px;
+    background: #ffffff;
+}
+.form-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #fff;
+}
+.form-box input{
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid #1d1c1c;
+    outline: none;
+    height: 40px; 
+    width: 100%;
+}
+.form-box input[type="submit"]{
+    background: #6b7f9a;
+    font-weight: bolder;
+    color: #ffffff;
+    cursor: pointer;
+}
+.form-box input[type="submit"]:hover{
+    background: #3D5A80;
+    transition: linear 0.45ms;
+}
+.form-box .Forget{
+    font-size: 12px;
+    font-weight: bold;
+    float: right;
+}
+.form-box .Creat{
+    font-size: 12px;
+    font-weight: bold;
+    float: left;
+}
+        /* Sign up page */
+
+.container-form .left-SignUp{
+    float: left;
+    width: 50%;
+    height: 480px;
+    background: url(../ABOshop/images/creation.svg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+#form-box-checkbox{
+    width: 15px;
+    height: 15px;
+    float: right;
+}
+#policy{
+    font-size: 12px;
+    font-family: 'Montserrat';
+}
+
+/* product section */
+.header-product{
+    background-color: #cac7ff;
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat';
+    margin-top: 30px;
+}
+.product-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+   background-color: #6b7f9a;
+    padding: 40px;
+    gap:30px 10px ;
+    flex-wrap: wrap;
+}
+.product{
+    width: 300px;
+    height: 400px;
+    background-color: #cac7ff;
+    padding: 40px;
+}
+.lineBreak{
+    background: #ffffff;
+    width: 92%;
+    text-decoration: underline;
+    color: blue;
+    text-align: end;
+    margin-top: -10px;
+}
+@media (max-width: 900px) {
+    nav ul {
+        position: fixed;
+        width: 100%;
+        height: 80vh;
+        background: #2f3640;
+        top: 80px;
+        left: 0;
+        text-align: center;
+    }
+    .container {
+        position: absolute;
+        right: 5px;
+        top: 155px;
+        display: flex;
+        justify-content: end;
+    }
+    .search-bar {
+        height: 37px;
+        width: 75%;
+    }
+    .search-bar button img {
+        width: 30px;
+        border-radius: 50%;
+    }
+    .search-bar button {
+        border: 0;
+        border-radius: 50%;
+        width: 37px;
+        height: 38px;
+        padding: px;
+        cursor: pointer;
+    }
+    .search-bar input {
+        font-size: 16px;
+    }
+    .fasionStyleImg {
+        background-color: #34495e;
+        width: 80%;
+        height: 41%;
+        position: absolute;
+        left: 10%;
+        top: 250px;
+        
+    }
+}
