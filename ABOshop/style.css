@@ -186,15 +186,25 @@ nav #icon {
     height: 40px; 
     width: 100%;
 }
+.form-box input[type="text"]{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
 .form-box input[type="submit"]{
     background: #6b7f9a;
     font-weight: bolder;
     color: #ffffff;
     cursor: pointer;
 }
+
 .form-box input[type="submit"]:hover{
     background: #3D5A80;
     transition: linear 0.45ms;
+}
+.form-box p{
+    margin-top: -20px;
+    float: right;
+    font-size: 12px;
 }
 .form-box .Forget{
     font-size: 12px;

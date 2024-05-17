@@ -16,11 +16,11 @@
             <div class="form-box">
                 <form action="">
                     <div class="form-heading"><h2>LOGIN</h2></div>
-                    <p>Username</p>
-                    <input type="text" placeholder="Username">
-                    <p>Password</p>
-                    <input type="password" placeholder="Password">
-                    <input type="submit">
+                    <input type="text" id="username-login-input" placeholder="Username">
+                    <p id="username-login-warning"></p>
+                    <input type="password" id="password-login-input" placeholder="Password">
+                    <p id="password-login-warning"></p>
+                    <input onclick="submitFunctionBtn()" type="submit">
                     <a href="./SignUp.html" class="Creat">Creat new account</a>
                     <a href="#" class="Forget">Forget password?</a>
                 </form>
