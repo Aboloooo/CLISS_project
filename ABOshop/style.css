@@ -56,14 +56,16 @@ nav #icon {
     float: right;
     cursor: pointer
 }
-#signin-container{
+
+#signin-container {
     background-color: aquamarine;
     width: 100%;
     height: 40px;
     display: flex;
     align-items: center;
 }
-#signin-container a{
+
+#signin-container a {
     font-size: 16px;
     margin-left: 25px;
     font-weight: bolder;
@@ -125,8 +127,9 @@ nav #icon {
     background-size: 100% auto;
     background-position: fixed;
 }
-             /* Login page css */
-#body-Login-page{
+
+/* Login page css */
+#body-Login-page {
     margin: 0;
     padding: 0;
     background: url(../ABOshop/images/welcome_cats.svg) no-repeat;
@@ -134,18 +137,19 @@ nav #icon {
     font-family: 'Montserrat';
 }
 
-.container-form{
+.container-form {
     position: absolute;
     top: 15%;
     right: 25%;
     width: 50%;
     height: 480px;
-    background: #cccbc8 ;
+    background: #cccbc8;
     margin: 0 auto;
     border: 2px solid #fff;
-    box-shadow: 0 15px 40px rgba(0,0,0,.5);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, .5);
 }
-.container-form .left-login{
+
+.container-form .left-login {
     float: left;
     width: 50%;
     height: 480px;
@@ -154,71 +158,82 @@ nav #icon {
     background-position: center;
     box-sizing: border-box;
 }
-.container-form .right{
+
+.container-form .right {
     float: right;
     width: 50%;
     height: 480px;
     box-sizing: border-box;
 }
-.form-heading{
+
+.form-heading {
     width: 100%;
     text-align: center;
     font-size: 20px;
 }
-.form-box{
+
+.form-box {
     width: 100%;
     padding: 50px 40px;
     box-sizing: border-box;
     height: 480px;
     background: #ffffff;
 }
-.form-box p{
+
+.form-box p {
     margin: 0;
     padding: 0;
     font-weight: bold;
     color: #fff;
 }
-.form-box input{
+
+.form-box input {
     margin-bottom: 20px;
     border: none;
     border-bottom: 2px solid #1d1c1c;
     outline: none;
-    height: 40px; 
+    height: 40px;
     width: 100%;
 }
-.form-box input[type="text"]{
+
+.form-box input[type="text"] {
     margin-top: 20px;
     margin-bottom: 30px;
 }
-.form-box input[type="submit"]{
+
+.form-box input[type="submit"] {
     background: #6b7f9a;
     font-weight: bolder;
     color: #ffffff;
     cursor: pointer;
 }
 
-.form-box input[type="submit"]:hover{
+.form-box input[type="submit"]:hover {
     background: #3D5A80;
     transition: linear 0.45ms;
 }
-.form-box p{
+
+.form-box p {
     margin-top: -20px;
     float: right;
     font-size: 12px;
 }
-.form-box .Forget{
+
+.form-box .Forget {
     font-size: 12px;
     font-weight: bold;
     float: right;
 }
-.form-box .Creat{
+
+.form-box .Creat {
     font-size: 12px;
     font-weight: bold;
     float: left;
 }
-        /* Sign up page */
 
-.container-form .left-SignUp{
+/* Sign up page */
+
+.container-form .left-SignUp {
     float: left;
     width: 50%;
     height: 480px;
@@ -227,40 +242,65 @@ nav #icon {
     background-position: center;
     box-sizing: border-box;
 }
-#form-box-checkbox{
+
+#form-box-checkbox {
     width: 15px;
     height: 15px;
     float: right;
 }
-#policy{
+
+#policy {
     font-size: 12px;
     font-family: 'Montserrat';
 }
 
 /* product section */
-.header-product{
+.header-product {
     background-color: #cac7ff;
     width: 100%;
     text-align: center;
     font-family: 'Montserrat';
     margin-top: 30px;
 }
-.product-container{
+
+.product-container {
     margin-top: 20px;
     display: flex;
     justify-content: space-evenly;
-   background-color: #6b7f9a;
+    background-color: #6b7f9a;
     padding: 40px;
-    gap:30px 10px ;
+    gap: 30px 10px;
     flex-wrap: wrap;
 }
-.product{
+
+.product {
     width: 300px;
     height: 400px;
     background-color: #cac7ff;
     padding: 40px;
 }
-.lineBreak{
+
+.product-img {
+    width: 297px;
+    height: 370px;
+    background-color: #3D5A80;
+}
+#img-product {
+    width: 297px;
+    height: 370px;
+    z-index: -1;
+}
+#LikedImg{
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-top: 330px;
+    z-index: 99;
+}
+
+
+
+.lineBreak {
     background: #ffffff;
     width: 92%;
     text-decoration: underline;
@@ -268,6 +308,7 @@ nav #icon {
     text-align: end;
     margin-top: -10px;
 }
+
 @media (max-width: 900px) {
     nav ul {
         position: fixed;
@@ -278,6 +319,7 @@ nav #icon {
         left: 0;
         text-align: center;
     }
+
     .container {
         position: absolute;
         right: 5px;
@@ -285,14 +327,17 @@ nav #icon {
         display: flex;
         justify-content: end;
     }
+
     .search-bar {
         height: 37px;
         width: 75%;
     }
+
     .search-bar button img {
         width: 30px;
         border-radius: 50%;
     }
+
     .search-bar button {
         border: 0;
         border-radius: 50%;
@@ -301,9 +346,11 @@ nav #icon {
         padding: px;
         cursor: pointer;
     }
+
     .search-bar input {
         font-size: 16px;
     }
+
     .fasionStyleImg {
         background-color: #34495e;
         width: 80%;
@@ -311,6 +358,6 @@ nav #icon {
         position: absolute;
         left: 10%;
         top: 250px;
-        
+
     }
 }
